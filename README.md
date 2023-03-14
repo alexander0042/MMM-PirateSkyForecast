@@ -7,7 +7,7 @@ https://github.com/MichMich/MagicMirror
 ![Screenshot](/../screenshots/MMM-DarkSkyForecast.png?raw=true "Screenshot")
 
 A weather module that displays current, hourly and daily forecast information
-using data from the Dark Sky API. This is a replacement module for MMM-MyWeather, now that Weather Underground no longer allows free API access.  This a complete rewrite from scratch but maintains
+using data from the Pirate Weather API. This is a replacement module for MMM-MyWeather, now that Weather Underground no longer allows free API access.  This a complete rewrite from scratch but maintains
 much of the same functionality.
 
 **NOTE:** This module uses the Nunjucks templating system introduced in version 2.2.0 of MagicMirror.  If you're seeing nothing on your display where you expect this module to appear, make sure your MagicMirror version is at least 2.2.0.
@@ -29,8 +29,8 @@ At a minimum you need to supply the following required configuration parameters:
 * `latitude`
 * `longitude`
 
-You can request an API key to access Dark Sky data here:
-`https://darksky.net/dev`.
+You can request an API key to access Pirate Weather data here:
+`https://pirateweather.net`.
 
 Free tier is fine -- this module will not make any where near 1000 request on one day.
 
